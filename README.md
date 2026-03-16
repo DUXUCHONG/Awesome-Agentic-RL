@@ -83,7 +83,7 @@ The most exciting frontier in Agentic RL isn't just making agents smarter — it
 </table>
 
 > **Want the full story?** Read the complete martial arts guide:
-> **[AI Martial Arts: The Five-Level System of Self-Improving Agents →](docs/self-evolving-agent-martial-arts.md)**
+> **[The Kung Fu of Self-Improving Agents →](docs/self-evolving-agent-martial-arts-en.md)**
 
 | Level | System | Paper | Core Idea |
 |:-----:|--------|-------|-----------|
