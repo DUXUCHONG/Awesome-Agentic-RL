@@ -2,6 +2,11 @@
 
 > A curated collection of papers, frameworks, and insights on **Agentic Reinforcement Learning** — where LLM-based agents learn to act, plan, and self-improve through interaction.
 
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=for-the-badge" alt="English"></a>
+  <a href="README_CN.md"><img src="https://img.shields.io/badge/中文-red?style=for-the-badge" alt="中文"></a>
+</p>
+
 ---
 
 ## Chapter 1 | Self-Evolving Agents: From Experience to Mastery
@@ -18,33 +23,28 @@ The most exciting frontier in Agentic RL isn't just making agents smarter — it
 
 ```
            ┌───────────────────┐
-     5     │ Group-Evolving    │
-           │ Agents            │
-           │ 群体进化           │
+     1     │ DreamGym          │
+           │ Exp. Synthesis    │
            └────────┬──────────┘
-                    ↑
-           ┌────────┴──────────┐
-     4     │ SAGE              │
-           │ Skill-Augmented   │
-           │ 技能驱动进化       │
-           └────────┬──────────┘
-                    ↑
-           ┌────────┴──────────┐
-     3     │ SkillRL           │
-           │ Skill Abstraction │
-           │ 技能抽象           │
-           └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
      2     │ Agent Lightning   │
            │ Training Infra    │
-           │ 训练基础设施       │
            └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
-     1     │ DreamGym          │
-           │ Exp. Synthesis    │
-           │ 经验生成           │
+     3     │ SkillRL           │
+           │ Skill Abstraction │
+           └────────┬──────────┘
+                    ↓
+           ┌────────┴──────────┐
+     4     │ SAGE              │
+           │ Skill-Augmented   │
+           └────────┬──────────┘
+                    ↓
+           ┌────────┴──────────┐
+     5     │ Group-Evolving    │
+           │ Agents            │
            └───────────────────┘
 ```
 
@@ -53,33 +53,28 @@ The most exciting frontier in Agentic RL isn't just making agents smarter — it
 
 ```
            ┌───────────────────┐
-     5     │ 门派共创           │
-           │ Clan Co-Creation  │
-           │ 集体创造武学       │
+     1     │ Training Ground   │
+           │ Practice Sparring │
            └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
-     4     │ 武学进化           │
-           │ Art Refinement    │
-           │ 不断改进招式       │
+     2     │ Training System   │
+           │ Record & Review   │
            └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
-     3     │ 招式总结           │
-           │ Technique Distill │
-           │ 提炼有效套路       │
+     3     │ Technique Distill │
+           │ Extract Patterns  │
            └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
-     2     │ 训练体系           │
-           │ Training System   │
-           │ 拆解复盘记录       │
+     4     │ Art Refinement    │
+           │ Polish Techniques │
            └────────┬──────────┘
-                    ↑
+                    ↓
            ┌────────┴──────────┐
-     1     │ 练功房             │
-           │ Training Ground   │
-           │ 模拟对练试招       │
+     5     │ Clan Co-Creation  │
+           │ Collective Growth │
            └───────────────────┘
 ```
 
@@ -88,7 +83,7 @@ The most exciting frontier in Agentic RL isn't just making agents smarter — it
 </table>
 
 > **Want the full story?** Read the complete martial arts guide:
-> **[AI 练武记：Self-Improving Agent 的五层武学体系 →](docs/self-evolving-agent-martial-arts.md)**
+> **[AI Martial Arts: The Five-Level System of Self-Improving Agents →](docs/self-evolving-agent-martial-arts.md)**
 
 | Level | System | Paper | Core Idea |
 |:-----:|--------|-------|-----------|
